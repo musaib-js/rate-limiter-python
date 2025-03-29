@@ -33,6 +33,9 @@ Now coming to the tradeoffs between the in-memory variable approach and redis ba
 
 <strong> For building the rate limiter, I'll be choosing a Redis based appproach with Flask. The application and the Redis both will be dockerized and kept on the same network.</strong>
 
+To setup the project on your local, please follow 
+[Setup Docs](./setup.md)
+
 Here is the screenshot demonstrating the rate limit.
 
 ![Log Screenshot](logscreenshot.png)
