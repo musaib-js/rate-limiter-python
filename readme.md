@@ -31,7 +31,7 @@ Now coming to the tradeoffs between the in-memory variable approach and redis ba
 1. The Redis approach too comes with some tradeoffs like network latency and initial redis setup, but if we dockerize the Redis and backend containers and keep them on the same network, the latency will be reduced. 
 
 
-<strong> For building the rate limiter, I'll be choosing a Redis based appproach with Flask. The application and the Redis both will be dockerized and kept on the same network.
+<strong> For building the rate limiter, I'll be choosing a Redis based appproach with Flask. The application and the Redis both will be dockerized and kept on the same network.</strong>
 
 Here is the screenshot demonstrating the rate limit.
 
