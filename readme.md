@@ -2,6 +2,10 @@
 
 Rate limiting refers to the process of putting a limit to the requests processed by a server from a specific address or a specific user. I have experienced it personally a lot of times, majorly while resetting social media passwords and giving wrong password multiple times and the rate limiter, most probably, caught me up and stopped processing requests for some time.
 
+
+Demo Link: https://www.loom.com/share/91d41e3881c146618ede3bb09f0cc2f5
+
+Flowchart
 ![Rate Limiter Design](RateLimiter.png)
 
 When it comes to banking applications, rate limiting is a must to stop spamming requests, while keeping the plafrorm up and healthy for genuine users.
